@@ -1,3 +1,23 @@
 emre
 yıldız
 19
+
+
+kullanici_adi="emre"
+sifre="1234"
+kod="75"
+tel_no="05455351175"
+mail="emreyildiz@gmail.com"
+kullanici=input("kullanıcı adı giriniz:")
+sifre1=input("şifre giriniz:")
+tel=input("tel no veya mail girin:")
+if tel_no==tel and sifre==sifre1:
+    kod1=input("kod giriniz:")
+if kod==kod1:   
+    print("giriş başarılı")
+else:
+    print("giriş başarısız")    
+if mail==tel and kullanici_adi==kullanici:
+    print("giriş başarılı")
+else:
+    print("giriş başarısız")
