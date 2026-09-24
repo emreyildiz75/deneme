@@ -21,3 +21,17 @@ if mail==tel and kullanici_adi==kullanici:
     print("giriş başarılı")
 else:
     print("giriş başarısız")
+
+
+hesap_numarası="12"
+fatura_numarası="92"
+fatura_tutarı="600"
+hesap_bakiyesi="500"
+kullanici=input("fatura numarasını gir")
+kullanici1=input("hesap numarasını gir")
+if kullanici==fatura_numarası and kullanici1==hesap_numarası:
+    if hesap_bakiyesi>fatura_tutarı:
+        print("ödeme gerçekleşti")
+
+else:
+    print("ödeme gerçekleşmedi")   
